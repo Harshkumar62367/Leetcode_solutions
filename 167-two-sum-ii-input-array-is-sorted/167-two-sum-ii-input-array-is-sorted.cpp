@@ -14,10 +14,10 @@ public:
             {
                 h--;
             }
-            else if(numbers[l]+numbers[h]<target)
-            {
-                l++;
-            }
+           else if(numbers[l]+numbers[h]<target)
+           {
+               l++;
+           }
             
         }
         vector <int> vect;
