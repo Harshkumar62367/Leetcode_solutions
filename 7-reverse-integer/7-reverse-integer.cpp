@@ -9,7 +9,7 @@ public:
             {
                 int r=x%10;
                 if(rev*10+r>INT_MAX){
-                    return 0;
+                  return 0;
                 }
                 rev=rev*10+r;
                 x=x/10;
