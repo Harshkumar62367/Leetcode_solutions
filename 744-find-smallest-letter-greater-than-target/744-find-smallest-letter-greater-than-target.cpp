@@ -10,23 +10,17 @@ public:
         while(l<=h)
         {
             mid=(l+h)/2;
-            if(letters[mid]>target)
+            if(letters[mid]<=target)
             {
-                h=mid-1;
-                x=false;
+                l=mid+1;
+            
             }
             else{
-                l=mid+1;
-                x=true;
+                h=mid-1;
+                
             }
         }
-        if(x==true)
-        {
-            return letters[mid+1];
-        }
-        else{
-            return letters[mid];
-        }
+        return letters[l];
         
         
         
