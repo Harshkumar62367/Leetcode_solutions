@@ -16,8 +16,8 @@ public:
             sum+=salary[i];
             
         }
-        double d=(double(sum-maxm-minm))/n;
-        return d;
+        double d=(sum-maxm-minm);
+        return d/n;
         
     }
 };
