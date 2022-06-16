@@ -1,7 +1,7 @@
 class Solution {
 public:
     int subtractProductAndSum(int n) {
-        long long int pro=1, sum=0;
+        int pro=1, sum=0;
         while(n>0)
         {
             int r=n%10;
