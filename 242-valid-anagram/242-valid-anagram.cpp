@@ -13,7 +13,7 @@ public:
             a[x]++;
             b[y]++;
         }
-        for(int i=96;i<123;i++)
+        for(int i=97;i<123;i++)
         {
             if(a[i]!=b[i])
             {
