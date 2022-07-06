@@ -2,13 +2,9 @@ class Solution {
 public:
     int fib(int n) {
         int f0=0,f1=1;
-        if(n==0)
+        if(n<2)
         {
-            return 0;
-        }
-        if(n==1)
-        {
-            return 1;
+            return n;
         }
         int fn;
         for(int i=2;i<=n;i++)
