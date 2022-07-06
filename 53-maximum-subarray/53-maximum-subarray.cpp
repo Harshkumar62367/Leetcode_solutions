@@ -18,3 +18,5 @@ public:
         return maxm;
     }
 };
+
+// Kadane's algorithm
