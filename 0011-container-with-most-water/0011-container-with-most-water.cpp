@@ -17,7 +17,7 @@ public:
             else{
                 h--;
             }
-            cout<<h<<"\n";
+            //cout<<h<<"\n";
         }
         return maxm;
     }
