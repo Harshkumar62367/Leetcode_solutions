@@ -5,14 +5,14 @@ public:
         vector<bool> vect;
         for(int i=1;i<candies.size();i++)
         {
-            if(candies[i]>maxm)
+            if(maxm<candies[i])
             {
                 maxm=candies[i];
             }
         }
         for(int i=0;i<candies.size();i++)
         {
-            int sum=extraCandies+candies[i];
+            int sum=candies[i]+extraCandies;
             if(sum>=maxm)
             {
                 vect.push_back(true);
@@ -20,7 +20,7 @@ public:
             else{
                 vect.push_back(false);
             }
-        }   
+        }
         return vect;
         
     }
