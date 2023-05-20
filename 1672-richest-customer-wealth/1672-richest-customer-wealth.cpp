@@ -17,3 +17,6 @@ public:
         return maxm;
     }
 };
+
+//easy
+//not revise
