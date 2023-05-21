@@ -1,17 +1,17 @@
 class Solution {
 public:
     vector<int> replaceElements(vector<int>& arr) {
-        int n=arr.size();
-        int x=arr[n-1];
-        arr[n-1] = -1;
-        for(int i=n-2;i>=0;i--)
+        int maxm=arr[arr.size()-1];
+        arr[arr.size()-1]=-1;
+        
+        for(int i=arr.size()-2;i>=0;i--)
         {
-            if(arr[i]<x)
+            if(arr[i]>maxm)
             {
-                arr[i]=x;
+                swap(arr[i],maxm);
             }
             else{
-                swap(arr[i],x);
+                arr[i]=maxm;
             }
         }
         return arr;
