@@ -8,8 +8,11 @@ public:
             {
                 if(grid[i][j]<0)
                 {
-                    count++;
+                    count+=grid[i].size()-j;
+                    break;
                 }
+                cout<<count<<endl;
+                //break;
             }
         }
         return count;
