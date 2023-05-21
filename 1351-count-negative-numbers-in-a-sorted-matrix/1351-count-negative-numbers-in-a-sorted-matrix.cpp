@@ -11,10 +11,12 @@ public:
                     count+=grid[i].size()-j;
                     break;
                 }
-                cout<<count<<endl;
-                //break;
             }
         }
         return count;
     }
 };
+
+// easy
+
+// revise
