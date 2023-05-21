@@ -13,3 +13,6 @@ public:
         return max_alt;
     }
 };
+
+//easy
+// not revise
