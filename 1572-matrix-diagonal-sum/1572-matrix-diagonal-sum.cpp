@@ -12,6 +12,6 @@ public:
                 }
             }
         }
-        return sum; 
+        return sum;
     }
 };
