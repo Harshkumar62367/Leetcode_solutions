@@ -9,3 +9,7 @@ public:
         return xorr;
     }
 };
+
+// easy
+
+// revise
