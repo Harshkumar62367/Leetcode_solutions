@@ -1,11 +1,11 @@
 class Solution {
 public:
     int xorOperation(int n, int start) {
-        int x=0;
-        for(int i=0;i<n;i++)
+        int xorr=start;
+        for(int i=1;i<n;i++)
         {
-            x=x^(start+(i*2));
+            xorr=xorr^(start+2*i);
         }
-        return x;
+        return xorr;
     }
 };
