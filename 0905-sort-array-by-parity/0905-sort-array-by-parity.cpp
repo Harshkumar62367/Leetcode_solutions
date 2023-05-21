@@ -18,3 +18,6 @@ public:
         return vect;
     }
 };
+
+// easy
+// not revise
