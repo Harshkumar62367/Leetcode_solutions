@@ -6,3 +6,6 @@ public:
         return (nums[0]-1)*(nums[1]-1);
     }
 };
+
+// easy
+// revise
