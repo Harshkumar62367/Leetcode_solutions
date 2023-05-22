@@ -15,3 +15,6 @@ public:
         return count;
     }
 };
+
+// easy
+// not revise
