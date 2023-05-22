@@ -15,3 +15,6 @@ public:
         return min(c1,c2);
     }
 };
+
+// easy
+// revise
