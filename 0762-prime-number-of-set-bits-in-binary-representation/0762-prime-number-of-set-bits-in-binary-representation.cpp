@@ -1,4 +1,4 @@
-class Solution {
+class Solution {   
     int convertBits(int num){
         int count=0;
         while(num){
